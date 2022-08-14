@@ -1,0 +1,27 @@
+Python 3.0.1 (r301:69561, Feb 13 2009, 17:50:10) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> CLIENTES
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    CLIENTES
+NameError: name 'CLIENTES' is not defined
+>>> CLIENTES[Ariel, Josefina, Juan, Mario,  Marianella]
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    CLIENTES[Ariel, Josefina, Juan, Mario,  Marianella]
+NameError: name 'CLIENTES' is not defined
+>>> CLIENTES= [Ariel, Josefina, Juan, Mario,  Marianella]
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    CLIENTES= [Ariel, Josefina, Juan, Mario,  Marianella]
+NameError: name 'Ariel' is not defined
+>>> CLIENTES= [ "Ariel", "Josefina", "Juan", "Mario",  "Marianella"]
+>>> CLIENTES
+['Ariel', 'Josefina', 'Juan', 'Mario', 'Marianella']
+>>> 
+CLIENTES
+['Ariel', 'Josefina', 'Juan', 'Mario', 'Marianella']
+>>> CLIENTES= [ "Ariel", "Josefina", "Juan",  "Marianella", "Mario"]
+>>> CLIENTES
+['Ariel', 'Josefina', 'Juan', 'Marianella', 'Mario']
+>>> 
